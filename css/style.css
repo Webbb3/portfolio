@@ -1,0 +1,87 @@
+/*Обнулення*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	background:#e8e8e8 url('../img/bg.png') no-repeat;
+}
+
+.content {
+	padding: 100px 0 137px 0;
+	max-width: 900px;
+	max-height: 500px;
+	display: block;
+	border-radius: 50px;
+	background-color:#D8DFEE;
+	margin-top: 100px;
+	margin-left: auto;
+    margin-right: auto;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.content-top {
+	text-align: center;
+	margin: 0px 0px 65px 0px;
+}
+.content-top__category {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2.8px;
+	margin: 0px 0px 15px 0px;
+}
+.content-top__title {
+	color: #001822;
+	font-size: 36px;
+	line-height: 50px;
+	max-width: 725px;
+	margin: 0px auto;
+}
+
+.content-bottom {
+    display: table;
+    margin: 15px auto;
+}
+
+.content-bottom-info__link {
+	height: 45px;
+	display: inline-block;
+	line-height: 44px;
+	padding: 0px 30px;
+	border-radius: 5px;
+	background-color:#CBF83E;
+	-webkit-box-shadow: 0px 5px 1px rgba(52, 141, 52, 0.5);
+	box-shadow: 0px 5px 1px rgba(52, 141, 52, 0.5);
+	color: #1d1d1d;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 3px;
+
+}
+
+.content-bottom-info__link span{
+	padding: 0px 15px;
+}
+.content-bottom-info__link:hover{
+	background-color:#fcfcfc;
+}
+.content-bottom-info__link:active{
+	position: relative;
+	top: 3px;
+	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 1px rgba(0, 0, 0,0.5);
+}
