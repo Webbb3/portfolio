@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
 body{
-	background:#e8e8e8 url('../img/bg.png') no-repeat;
+	background:#e8e8e8 url('../img/title.png') repeat;
 }
 
 .content {
@@ -26,11 +26,13 @@ body{
 	max-height: 500px;
 	display: block;
 	border-radius: 50px;
-	background-color:#D8DFEE;
 	margin-top: 100px;
 	margin-left: auto;
     margin-right: auto;
 	font-family: 'Courier New', Courier, monospace;
+	-webkit-backdrop-filter: blur(13px);
+	backdrop-filter: blur(13px);
+	box-shadow: 0 18px 100px -40px rgb(88, 88, 88);
 }
 
 .content-top {
