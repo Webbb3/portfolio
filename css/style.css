@@ -21,14 +21,14 @@ body{
 }
 
 .content {
-	padding: 100px 0 137px 0;
+	padding: 100px 0 50px 0;
 	max-width: 900px;
-	max-height: 810px;
+	max-height: auto;
 	display: block;
 	border-radius: 50px;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	font-family: 'Courier New', Courier, monospace;
 	-webkit-backdrop-filter: blur(13px);
 	backdrop-filter: blur(13px);
@@ -55,8 +55,8 @@ body{
 }
 
 .content-bottom {
-    display: table;
-    margin: 30px auto;
+  display: table;
+  margin: 30px auto;
 }
 
 .content-bottom-info__link {
@@ -89,5 +89,5 @@ body{
 }
 
 .footer {
-	height: 100px;
+	height: 50px;
 }
